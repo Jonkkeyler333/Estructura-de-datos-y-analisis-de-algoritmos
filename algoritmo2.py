@@ -20,17 +20,20 @@ def estadistica(promedios:list)->str:
 if __name__=="__main__":
     print('Bienvenido')
     promedios_estudiante=[]
+    lista_notas=[]
     n_estudiantes=int(input('Por favor ingrese el numero de estudiantes de su curso '))
     if n_estudiantes<=0:
         print('Ha ocurrido un error')
         n_estudiantes=int(input('Por favor ingrese el numero de estudiantes de su curso '))
-    
     for j in range(n_estudiantes):
-            n1=float(input(f'ingrese la nota 1 del estudiante {j+1} '))
-            n2=float(input(f'ingrese la nota 2 del estudiante {j+1} '))
-            n3=float(input(f'ingrese la nota 3 del estudiante {j+1} '))
-            n4=float(input(f'ingrese la nota 4 del estudiante {j+1} '))
-            promedios_estudiante.append(promedio_est(n1,n2,n3,n4))
-            print()
+        i = 1 
+        lista_notas = [] 
+        while i <= 4:
+            n = float(input(f'Ingrese la nota {i} del estudiante {j+1}: '))
+            lista_notas.append(n)
+            i += 1
+        promedios_estudiante.append(promedio_est(*lista_notas))
+        print()
+        
     print(estadistica(promedios_estudiante))
             
