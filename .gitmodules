@@ -1,0 +1,3 @@
+[submodule "ActividadLib"]
+	path = ActividadLib
+	url = https://github.com/Jonkkeyler333/actividad_librerias.git
