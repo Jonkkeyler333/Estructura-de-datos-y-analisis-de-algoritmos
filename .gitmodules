@@ -1,3 +1,6 @@
 [submodule "ActividadLib"]
 	path = ActividadLib
 	url = https://github.com/Jonkkeyler333/actividad_librerias.git
+[submodule "ActividadListas"]
+	path = ActividadListas
+	url = https://github.com/Jonkkeyler333/Actividad_Listas.git
