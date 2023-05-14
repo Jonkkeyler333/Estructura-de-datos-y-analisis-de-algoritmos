@@ -4,3 +4,9 @@
 [submodule "ActividadListas"]
 	path = ActividadListas
 	url = https://github.com/Jonkkeyler333/Actividad_Listas.git
+[submodule "Ejercicios"]
+	path = Ejercicios
+	url = https://github.com/Jonkkeyler333/Ejercicios_Analisis_Estructuras.git
+[submodule "Ejercicios_practicas"]
+	path = Ejercicios_practicas
+	url = https://github.com/Jonkkeyler333/Ejercicios_Analisis_Estructuras.git
