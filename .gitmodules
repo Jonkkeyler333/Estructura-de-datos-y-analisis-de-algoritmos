@@ -10,3 +10,6 @@
 [submodule "Ejercicios_practicas"]
 	path = Ejercicios_practicas
 	url = https://github.com/Jonkkeyler333/Ejercicios_Analisis_Estructuras.git
+[submodule "Taller_listas"]
+	path = Taller_listas
+	url = https://github.com/Jonkkeyler333/Taller_listas.git
