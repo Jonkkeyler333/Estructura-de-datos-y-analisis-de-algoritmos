@@ -13,3 +13,6 @@
 [submodule "Taller_listas"]
 	path = Taller_listas
 	url = https://github.com/Jonkkeyler333/Taller_listas.git
+[submodule "arboles"]
+	path = arboles
+	url = https://github.com/Jonkkeyler333/taller_arboles.git
